@@ -1,13 +1,318 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.foto{
+  width: 300px;
+  padding: 20px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body{
+  background-color: rgb(238, 235, 233);
 }
+
+.block{
+  display: flex;
+flex-direction: row;
+justify-content: center;
+  flex-wrap: wrap;
+}
+
+.block_two{
+  display: flex;
+  flex-direction: row;
+justify-content: center;
+flex-wrap: wrap;
+  border: 1px black solid;
+  font-family: 'Exo 2', sans-serif;
+}
+
+.categoryButtonSelected{
+background-color: rgb(148, 147, 147);
+font-family: 'Exo 2', sans-serif;
+
+}
+
+.categoryButton :hover{
+background-color: rgb(218, 219, 218);
+}
+
+.categoryButton{
+  cursor: pointer;
+  margin-top: 40px;
+  padding: 15px;
+}
+
+.urn{
+  width: 70px;
+}
+
+.block{
+  display: flex;
+  flex-direction: row;
+}
+
+.delete{
+  font-size: 10px;
+  font-family: 'Exo 2', sans-serif;
+}
+
+.blockTwo{
+  line-height: 0.5px;
+}
+
+
+.item{
+  display: flex;
+  color: black;
+  text-decoration: none;
+  font-family: 'Exo 2', sans-serif;
+}
+
+.itemBlock{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.interior{
+  width: 380px;
+  padding: 30px;
+}
+
+.interior-block{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.blockOne{
+  display: flex;
+  flex-direction: column;
+}
+
+.text{
+  display: flex;
+  justify-content: center;
+  font-family: 'Exo 2', sans-serif;
+}
+
+.menu{
+  display: flex;
+  justify-content: center;
+  background-color: rgb(238, 207, 97);
+}
+
+.link{
+  font-size: 20px;
+  color: black;
+  text-decoration: none;
+padding: 40px;
+font-family: 'Exo 2', sans-serif;
+}
+
+.nameFurniture{
+  font-size: 18px;
+  text-align: center;
+  margin-top: 40px;
+  font-weight: bold;
+  font-family: 'Exo 2', sans-serif;
+}
+
+.AddToCart{
+  padding: 10px;
+  border: none;
+  background-color: rgb(238, 207, 97);
+  font-family: 'Exo 2', sans-serif;
+}
+
+.AddToCart:hover{
+background-color:  rgb(194, 191, 184);
+cursor: pointer;
+}
+
+.quantity{
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+}
+
+.add{
+width: 30px;
+  height: 30px;
+  border: none;
+  padding: 10px;
+border: 1px solid black;
+}
+
+.number{
+  margin: 5px;
+}
+
+.fotoTwo{
+  width: 300px;
+}
+
+.cartList{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 50px;
+  border: 1px solid black;
+}
+
+.cartListBlock{
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+}
+
+.ButtonDelete{
+  padding: 7px;
+  width: 90px;
+}
+
+.dishesName{
+  font-size: 20px;
+font-weight: bolder;
+font-family: 'Exo 2', sans-serif;
+}
+
+.Mishael{
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+z-index: -1;  
+opacity: 0.3;
+}
+
+.DizainInterior{
+  width: 800px;
+}
+
+.interiorDizainBlock{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.AnimationText{
+  font-size: 18px;
+  width: 500px;
+  text-align: center;
+  padding: 15px;
+  background-color: rgb(238, 207, 97);
+  font-family: 'Exo 2', sans-serif;
+}
+
+.furnitureInteriorBlock{
+  display: flex;
+  flex-direction: row;
+justify-content: center;
+}
+
+.furnitureInteriorImage{
+  width: 500px;
+}
+
+
+
+.ContactBlock{
+  display: flex;
+  justify-content: center;
+}
+
+.nameInteriorText{
+  text-align: center;
+  font-family: 'Exo 2', sans-serif;
+  margin: 40px;
+  font-weight: bold;
+}
+
+.FurnitureInterior{
+display: flex;
+justify-content: center;
+font-size: 20px;
+margin: 30px;
+color:  rgb(151, 127, 42);
+font-family: 'Exo 2', sans-serif;
+}
+
+.Blockicon{
+  display: flex;
+  flex-direction: column;
+ align-items: center;
+ font-family: 'Exo 2', sans-serif;
+}
+
+.ContactStreet{
+  font-family: 'Exo 2', sans-serif;
+}
+
+.CartText{
+  font-family: 'Exo 2', sans-serif;
+}
+
+@media all and (max-width: 800px){
+
+  .AnimationText{
+    font-size: 15px;
+    width: 300px;
+  }
+
+  .link{
+    font-size: 16px;
+  padding: 20px;
+  }
+
+  .ContactStreet{
+    font-size: 13px;
+  }
+
+  .cartList{
+    flex-direction: column;
+    padding: 30px;
+  }
+  
+  .fotoTwo{
+    width: 250px;
+  }
+
+  .dishesName{
+    font-size: 15px;
+  }
+
+  .CartText{
+    font-size: 13px;
+  }
+
+  .FurnitureInterior{
+    font-size: 15px;
+  }
+
+  .nameInteriorText{
+    font-size: 13px;
+  }
+
+  .furnitureInteriorImage{
+   width: 300px;
+  }
+
+  .text{
+    font-size: 13px;
+  }
+
+  .block_two{
+font-size: 14px;
+    padding: 7px;
+  }
+
+  .nameFurniture{
+    font-size: 14px;
+  }
+
+  .finishPrice{
+    font-size: 13px;
+  }
+}
+
