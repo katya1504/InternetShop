@@ -1,7 +1,7 @@
 import { useState } from "react";
 import ChangeQuantity from "../Cart/ChangeQuantity";
 import { useDispatch } from "react-redux/es/hooks/useDispatch";
-import { addItemToCart } from "../../Redux/CartSlice";
+import { addItemToCart } from "../../Redux/cartSlice";
 
     const Display = ({display}) =>{
 
@@ -17,7 +17,7 @@ import { addItemToCart } from "../../Redux/CartSlice";
         <div className="quantity">
     <p>$ {display.price}</p>
     </div>
-    
+
     <ChangeQuantity quantity={quantity} setQuantity={setQuantity}/>
     <div className="quantity">
     <button onClick={() => {dispatch(addItemToCart({display, quantity}))}} className='AddToCart'>В корзину</button>

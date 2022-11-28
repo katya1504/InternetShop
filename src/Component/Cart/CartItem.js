@@ -1,6 +1,6 @@
 import furniture from "../furnitureComponent/furniture";
 import { useDispatch } from "react-redux";
-import { removeItemFromCart } from "../../Redux/CartSlice";
+import { removeItemFromCart } from "../../Redux/cartSlice";
 
 
 const CartItem = ({cartItem}) => {

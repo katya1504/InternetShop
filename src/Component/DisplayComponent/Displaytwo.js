@@ -1,6 +1,6 @@
 import furniture from "../furnitureComponent/furniture";
 import Display from "../DisplayComponent/Display";
-import { getSelectedCategory } from "../../Redux/DisplaySlice";
+import { getSelectedCategory } from "../../Redux/displaySlice";
 import { useSelector } from "react-redux";
 import Mishael from'./michael.jpg';
 
@@ -15,7 +15,7 @@ return(
 if (selectedCategory === 'Весь ассортимент') return true;
     return selectedCategory === dish.category;
 }).map(display => 
-<Display display={display}/>)}
+<Display display={display} key={display}/>)}
 <img src={Mishael} width='100%' className="Mishael" alt="MishaelInterior"></img>
 
 </div>

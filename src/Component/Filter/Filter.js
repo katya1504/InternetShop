@@ -1,5 +1,5 @@
 import { useSelector, useDispatch} from "react-redux";
-import { getSelectedCategory, filterCategory } from "../../Redux/DisplaySlice";
+import { getSelectedCategory, filterCategory } from "../../Redux/displaySlice";
 
 const Filter = ({category}) => {
 
